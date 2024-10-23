@@ -6,11 +6,12 @@
   to = "https://models.inference.ai.azure.com/:splat"
   status = 200
   force = true
-  headers = {X-From = "Netlify"}
+  headers = { 
+    Authorization = ":auth",
+    Content-Type = "application/json"
+  }
 
 [[redirects]]
   from = "/*"
-  to = "https://models.inference.ai.azure.com/:splat"
+  to = "/index.html"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
