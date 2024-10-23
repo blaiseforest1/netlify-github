@@ -6,10 +6,7 @@
   to = "https://models.inference.ai.azure.com/:splat"
   status = 200
   force = true
-  headers = { 
-    Authorization = ":auth",
-    Content-Type = "application/json"
-  }
+  headers = {Authorization = ":auth", Content-Type = "application/json"}
 
 [[redirects]]
   from = "/*"
