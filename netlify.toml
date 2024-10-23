@@ -6,4 +6,3 @@
   to = "https://models.inference.ai.azure.com/:splat"
   status = 200
   force = true
-  headers = {Authorization = "Bearer :auth", Content-Type = "application/json"}
